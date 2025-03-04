@@ -11,7 +11,14 @@ export const metadata: Metadata = {
   title: "GaiaX - Formación Adaptativa para Equipos",
   description:
     "Transforma la capacitación tradicional en rutas de aprendizaje adaptativas, diseñadas para las necesidades únicas de cada empleado.",
-}
+  icons: {
+    icon: "/favicon.ico",
+  },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+  },
+  }
 
 export default function RootLayout({
   children,
