@@ -13,7 +13,7 @@ export default function PreciosPage() {
   const pricingData: Feature[] = [
     {
       title: "Básico",
-      price: "€9",
+      price: "$US 8",
       description: "Para equipos pequeños",
       features: [
         "Hasta 10 usuarios",
@@ -28,7 +28,7 @@ export default function PreciosPage() {
     },
     {
       title: "Pro",
-      price: "€19",
+      price: "$US 14",
       description: "Para empresas en crecimiento",
       features: [
         "Usuarios ilimitados",
